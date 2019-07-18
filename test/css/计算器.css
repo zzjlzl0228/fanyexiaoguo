@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.counter {
+	width: 596px;
+	height: 686px;
+	/* background-color: black; */
+	border: 1px solid aquamarine;
+	margin: 50px auto;
+
+}
+
+
+#box {
+	height: 70px;
+	width: 536px;
+	background-color: black;
+	border: none;
+	margin: 40px 25px 32px 25px;
+	font: 700 40px/70px "微软雅黑";
+	color: white;
+	padding-right: 10px;
+}
+
+.funct {
+	padding: 0 20px;
+	position: relative;
+
+}
+
+.funct input {
+	height: 85px;
+	width: 110px;
+	margin: 10px 10px;
+	font: 400 20px/40px "微软雅黑";
+}
+
+.funct #res {
+	width: 250px;
+}
+
+#add,
+#reduce,
+#round,
+#sum,
+#ride,
+#aor {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+#ride {
+	right: 30px;
+	top: 105px;
+}
+#reduce {
+	right: 30px;
+	top: 208px;
+}
+
+#add {
+	right: 30px;
+	top: 315px;
+}
+
+#sum {
+	height: 85px;
+	right: 30px;
+	bottom: 0px;
+}
+
+#aor {
+	right: 305px;
+	bottom: 0;
+}
+#round {
+	right: 165px;
+	bottom: 0px;
+}
+
+#zero {
+	width: 110px;
+}
+
+.numb {
+	width: 480px;
+}

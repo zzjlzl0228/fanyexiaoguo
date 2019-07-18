@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div{
+	-webkit-user-select: none; /*webkit浏览器*/
+}
+ 
+html {
+	font-size: 80px;
+}
+
+.mycontainer {
+	width: 10.80rem;
+	height: 19.2rem;
+	margin: 0 auto;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+#mypic {
+	width: 10.8rem;
+	height: 19.2rem;
+}
+
+.btn {
+	color: white;
+	text-align: center;
+	font-size: 0.8rem;
+	width: 1.6rem;
+	height: 2rem;
+	line-height: 2rem;
+	/* border: 1px solid red; */
+	position: absolute;
+	cursor: pointer;
+}
+
+#nextBtn {
+right: 0;
+	top: 8rem;
+}
+
+#preBtn {
+	left: 0;
+	top: 8rem;
+	
+}
+
+.left {
+	animation:5s rotate1 infinite;
+}
+.right {
+	animation: 5s rotate2 infinite;
+}
+@keyframes rotate1{
+	
+	20%{transform:rotate(36deg)}
+	40%{transform:rotateY(72deg);}
+	60%{transform:rotateY(108deg);}
+	80%{transform:rotateY(144deg);}
+	100%{transform:rotateY(180deg);}
+}
+@keyframes rotate2{
+	20%{transform:rotate(-36deg)}
+	40%{transform:rotateY(-72deg);}
+	60%{transform:rotateY(-108deg);}
+	80%{transform:rotateY(-144deg);}
+	100%{transform:rotateY(-180deg);}
+}
+
+/*动画部分*/
+	.flip-animation-start {
+		animation: flipBook1 3s forwards;
+		-moz-animation: flipBook1 3s forwards; /* Firefox */
+		-webkit-animation: flipBook1 3s forwards; /* Safari and Chrome */
+		-o-animation: flipBook1 3s forwards; /* Opera */
+	}
+	.flip-animation-end {
+		animation: flipBook2 3s forwards;
+		-moz-animation: flipBook2 3s forwards; /* Firefox */
+		-webkit-animation: flipBook2 3s forwards; /* Safari and Chrome */
+		-o-animation: flipBook2 3s forwards; /* Opera */
+	}
